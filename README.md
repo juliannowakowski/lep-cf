@@ -4,6 +4,8 @@ A proof-of-concept SageMath implementation of the paper
 
 **An Improved Algorithm for Code Equivalence**
 
+available at https://eprint.iacr.org/2024/1272
+
 
 ## Files
 * `lep_solver.sage` contains the novel algorithm for solving the linear code equivalence problem (LEP).
