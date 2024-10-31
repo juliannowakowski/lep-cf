@@ -32,9 +32,9 @@ def testCF(n,k,q):
     return True
 
 trials = 50
-nRange = range(50,100,10)
+nRange = range(50,110,10)
 rRange = range(1,6)
-Q = [7,8,9,11,13]
+Q = [2,3,4,5,7,8,9,11,13]
 
 print("Determining success rate of canonical form function.")
 
@@ -56,7 +56,7 @@ for q in Q:
             succRate = 0
             
             for _ in range(trials):
-                if testCF(n,k,7):
+                if testCF(n,k,q):
                     succRate += 1
             succRate /= trials
 
